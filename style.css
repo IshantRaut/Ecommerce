@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height:70px;
+    background-color:lightgray;
+    display:flex;
+    justify-content:center;
+}
+.header-container{
+    width:80%;
+    height:70px;
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    width:20%;
+    height:70px;    
+    
+    display:flex;
+    justify-content:center;
+}
+img{
+    width:40%;
+    height:70px;
+    overflow:hidden;
+   
+}
+.nav{
+    width:25%;
+    height:70px;
+   
+    display:flex;
+    align-items:center;
+}
+.nav-links{
+    width:100%;
+    display:flex;
+    list-style-type:none;
+    font-weight: bold;
+    justify-content:space-between;
+    font-size:18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.hand{
+    cursor:pointer;
+}
+
+.Banner{
+    width: 100%;
+    height: 700px;
+    background-color: #f6f6f6;
+    /* background-color: gray; */
+    overflow: hidden;
+    display: flex;
+}
+
+.banner-details{
+    width: 50%;
+    height: 700px;
+    /* background-color:gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    width: 70%;
+    height: 500px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.banner-title{
+    font-size: 60px;
+    font-family: segoe UI;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.highlight{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    border: 15px solid #0e3160;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0e3160;
+}
+img{
+    height: 600px;
+}
+
+
+.branding {
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: red; */
+    padding: 50px 10%;
+    display: flex;
+    column-gap: 5%;
+}
+
+.branding-1
+{
+    width: 30%;
+    height: 600px;
+    background-color: #98c6d2;
+    background-image: url('images/him.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 5%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: segoe UI;
+    color: white;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+
+.branding-2
+{
+    width: 30%;
+    height: 600px;
+    background-color: gray;
+    background-image: url('images/her.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 5%;
+    padding: 100px 5%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: segoe UI;
+    color: white;
+    justify-content: center;
+    text-transform: uppercase;
+    
+
+}
+
+.branding-3 {
+    width: 30%;
+    height: 600px;
+    background-color: #e07e88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 5%;
+    font-size: 40px;
+    font-family: segoe UI;
+}
+
+.brand-title
+{
+    background-color: gray;
+    padding: 20px;
+}
+
+.products {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+   padding-bottom: 10px;
+    width: 20%;
+    background-color: white;
+    
+}
+
+.product-img{
+    height: 430px;
+    width: 100%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.pro-img{
+    width: 100%;
+}
+
+.product-details{
+    padding: 10px;
+    font-family: segoe UI;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.btn-1{
+    padding: 12px 20px;
+    background-color: #98c6d2;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn-2{
+    padding: 12px 20px;
+    background-color: #e07e88;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
